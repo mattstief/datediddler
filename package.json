@@ -1,0 +1,20 @@
+{
+  "name": "datetime",
+  "version": "1.0.0",
+  "files": ["src/**/*.{js,ts}"],
+  "description": "diddles the date",
+  "main": "init.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mattstief/datediddler.git"
+  },
+  "author": "Matt Stieferman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattstief/datediddler/issues"
+  },
+  "homepage": "https://github.com/mattstief/datediddler#readme"
+}

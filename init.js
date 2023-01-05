@@ -1,8 +1,10 @@
-import "datediddler.js";
+import secondsSinceDateFromToday from "./datediddler.js";
 
 let userDate = document.getElementById("entered_date");
 userDate.addEventListener("change", () => {
-  console.log("date changed!");
-  seconds = secondsSinceDateFromToday(userDate);
-  this.document.getElementById("output").innerHTML = seconds;
+  var milliseconds = secondsSinceDateFromToday(userDate);
+  var seconds = milliseconds / 1000;
+  if (seconds) {
+    document.getElementById("output").innerHTML = "seconds:" + seconds;
+  }
 });
