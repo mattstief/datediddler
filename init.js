@@ -1,4 +1,4 @@
-import secondsSinceDateFromToday from "./datediddler.js";
+import secondsSinceDateFromToday from "./dateMath.js";
 
 let userDate = document.getElementById("entered_date");
 userDate.addEventListener("change", () => {
